@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <link href="static/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="static/jquery.js"></script>
+    <script src="static/bootstrap.min.js"></script>
+
+    <style>
+
+    	body {
+    		padding-top: 70px;
+    	}
+
+    	#header {
+        background-color: #ff8080;
+    	}
+
+    	#header table {
+        float:left;
+        margin-right: auto;
+        margin-left: auto;
+    	}
+
+    	#header table tr td {
+        	text-align: left;
+        	padding-right: 20px;
+    	}
+
+        #header a:not(.hover) {
+            -webkit-transition: 0.25s;
+            transition: 0.25s;
+            color: #444444;
+        }
+
+        #header a:hover {
+            -webkit-transition: 0.25s;
+            transition: 0.25s;
+            color: #77DD77;
+        }
+
+        #header h2, #header h3 {
+            text-align: right;
+        }
+
+        #header img {
+            float: right;
+            padding-right: 10px;
+            margin-left: 15px;
+        }
+
+        #willhikeimage {
+            width:110px;
+            height:110px;
+            border-radius:55px;
+            -webkit-border-radius:55px;
+            -moz-border-radius:55px;
+        }
+
+        #ultimatepad {
+            padding-top:25px;
+        }
+
+        #willbigimage {
+            width:240px;
+            height:240px;
+            border-radius:120px;
+            -webkit-border-radius:120px;
+            -moz-border-radius:120px;
+        }
+
+        #squeeze {
+            width:80%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+    </style>
+
+
+    <title>Will Deuschle</title>
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    	<div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">WD</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#schooling">Schooling</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="jumbotron" id="header">
+        <div class="container">
+            <div class="col-md-6">
+            	<h1>Will Deuschle</h1>
+                   <table>
+                    <tr>
+                        <td>
+                            <a href="mailto:wjdeuschle@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+                        </td> <td>
+                            <a href="https://www.linkedin.com/in/william-deuschle-34954899"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                        </td>
+                    </tr>
+                    </table>
+            </div><br>
+            <div class="col-md-6">
+            	<img src="static/assets/img/me.png"/>
+                <h3>Buffalonian | CS dabbler</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="schooling">
+        <div class="container">
+            <h2>Schooling</h2><br>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object" src="static/assets/img/harvardcrest.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Harvard University</h3>
+                                A.B. in Computer Science, Secondary in Global Health and Health Policy | 2018
+                        <h4>Coursework in CS and Math</h4>
+                        <table class="table table-condensed">
+                            <tbody>
+                                <tr>
+                                    <td>Fall 2014</td>
+                                    <td>Math 19a</td>
+                                    <td>Modeling and Differential Equations</td>
+                                </tr>
+                                <tr>
+                                    <td>Fall 2015</td>
+                                    <td>CS 50</td>
+                                    <td>Introduction to Computer Science I</td>
+                                </tr>
+                                <tr>
+                                    <td>Fall 2015</td>
+                                    <td>Math 21b</td>
+                                    <td>Linear Algebra</td>
+                                </tr>    
+                                <tr>
+                                    <td>Spring 2016</td>
+                                    <td>CS 51</td>
+                                    <td>Introduction to Computer Science II</td>
+                                </tr>
+                                <tr>
+                                    <td>Spring 2016</td>
+                                    <td>CS 124</td>
+                                    <td>Data Structures and Algorithms</td>
+                                </tr> 
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="media-body">
+                                <h4>Additional Coursework</h4>
+                                <table class="table table-condensed">
+                                    <tbody>
+                                        <tr>
+                                            <td>Fall 2014</td>
+                                            <td>LS 1a</td>
+                                            <td>Integrated Intro to the Life Sciences</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fall 2014</td>
+                                            <td>SW 25</td>
+                                            <td>Case Studies in Global Health</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spring 2015</td>
+                                            <td>LS 1b</td>
+                                            <td>Genetics, Genomics, & Evolution</td>
+                                        </tr>    
+                                        <tr>
+                                            <td>Spring 2015</td>
+                                            <td>Expos 20</td>
+                                            <td>Paradox in Public Health</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fall 2015</td>
+                                            <td>EMR 20</td>
+                                            <td>The Business and Politics of Health</td>
+                                        </tr> 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" style="padding-right: 20px;" src="static/assets/img/hikeharvardlogo.png">
+                        </div>
+                        <div class="media-body"><br>
+                            <h3 class="media-heading"><img src="static/assets/img/hikeharvardsmall.png" class="image-responsive"/></h3>
+                                HikeHarvard is an application designed for backpackers in the New England area. It helps users find hiking trips and provides them with directions from their location to the trailhead. The application also enables users to enter descriptions and comments on trips ranging from day-hikes to weeklong ventures in the woods.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="static/assets/img/hikeharvardpic.png" class="image-responsive"/>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" style="padding-right: 20px;" src="static/assets/img/foplogo.png"/>
+                        </div>
+                        <div class="media-body"><br>
+                            <h3 class="media-heading">FOP Leader Web Toolkit</h3>
+                                Harvard's First-Year Outdoor Program (FOP) is an organization that serves more than a quarter of Harvard's incoming freshman class each year. The FOP Leader Web Toolkit is a web application constructed for FOP that resolves the program's paper-based data collection and storage methods. The application allows leaders to locate information about past trips and store their own data for future leaders upon returning to campus.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="static/assets/img/fopwebpic.png" class="image-responsive"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <h2>About</h2>
+            <div class="row" id="squeeze">
+                <div class="col-md-12" style="text-align:center;">
+                    <a href="#"><img src="static/assets/img/willlaugh.png" id="willbigimage"/></a><br>
+                </div>
+            </div>
+            <br>
+            <div class="row" id="squeeze">
+                <div class="col-md-4" style="text-align:center;">
+                    <a href="http://hoechst.us/igp/"><img src="static/assets/img/igptie.png" id=""/></a><br>
+                    improv
+                </div>
+                <div class="col-md-4" style="text-align:center;">
+                    <a href="http://www.hcs.harvard.edu/~disc/"><img src="static/assets/img/redline.png" id="ultimatepad"/></a><br>
+                    ultimate
+                </div>
+                <div class="col-md-4" style="text-align:center;">
+                    <a href="http://fop.fas.harvard.edu/"><img src="static/assets/img/willfoppic.png" id="willhikeimage"/></a><br>
+                    backpacking
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-12" style="text-align:center; font-family:'Papyrus'; font-size:16px; color:#0041C2">
+                    Will's always wondered what it would be like to have an about page for himself. This is a lot of pressure.<br>
+                    He figured one would need a certain level of narcissism to acquiesce to such a thing.<br>
+                    He also knew he'd have to use fancy words from a thesaurus like 'acquiesce'.<br>
+                    He was even prepared to speak exclusively in the third person.<br>
+                    But he also knew only those who 'made it' had about pages.<br>
+                    Will has not yet 'made it', whatever that means.<br>
+                    But he has learned to use a computer.<br>
+                    Hence the about page he now has.<br>
+                    The photos sum his interests.<br>
+                    Please do enjoy.<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div style="margin-bottom: 0px; text-align:center;">
+            Will Deuschle <span class="fa fa-heart"></span> 2016
+    </div>
+
+</body>
+
+</html>
